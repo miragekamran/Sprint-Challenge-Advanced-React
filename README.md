@@ -24,30 +24,33 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -  Why would you use class component over function components (removing hooks from the question)?
 - [x] A functional component is a Java script, but a class Component requires us to be extended from React.
-- [x] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+-  Name three lifecycle methods and their purposes.
+- [x] Mounting component, Component Update, Component Unmounting - End of component
+-  What is the purpose of a custom hook?
+- [x] The purpose of a custom hook is to reuse stateful logic
+-  Why is it important to test our apps?
+- [x] Tests ensures that functionality bugs and usability issues are far and few between.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to download dependencies.
-- [ ] Run the server using `npm start` or `node server.js`.
-- [ ] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
-- [ ] Still inside the `client` folder run `npm start` to run the client application.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [x] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [x] Run `npm install` to download dependencies.
+- [x] Run the server using `npm start` or `node server.js`.
+- [x] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
+- [x] Still inside the `client` folder run `npm start` to run the client application.
+- [x] Implement the project on this Branch, **committing progress & changes often.**
+- [x] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request.
+- [x] PM then will count the HW as done by merging the branch back into master.
 
 ## Minimum Viable Product
 
