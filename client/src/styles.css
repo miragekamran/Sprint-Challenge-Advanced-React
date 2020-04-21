@@ -169,7 +169,7 @@ img {
 
 .navbar {
   align-items: center;
-  border-bottom: 1px solid rgb(221, 221, 221);
+  /* border-bottom: 1px solid rgb(221, 221, 221); */
   display: flex;
   height: 70px;
   justify-content: space-between;
@@ -205,9 +205,9 @@ img {
 
 
 .dark-mode .cardRoot {
-  color: #fff;
-  background-color: #313843;
-  border: 1px solid salmon;
+  color: rgb(230, 207, 207);
+  background-color: #525252;
+  border: 1px solid rgb(109, 101, 100);
   
  
 }

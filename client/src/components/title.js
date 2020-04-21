@@ -1,7 +1,6 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+// import Button from "@material-ui/core/Button";
 import { useDarkMode } from "../hooks/useDarkMode";
-import Players from "./players";
 
 export default function Title() {
   const [darkMode, setDarkMode] = useDarkMode(false);

@@ -26,18 +26,9 @@ export default class Players extends React.Component {
         {this.state.players.map((thePlayer) => (
           <Card key={thePlayer.id} className="cardRoot" variant="outlined">
             <CardContent>
-              <Typography
-                variant="h5"
-                className="typography"
-                color="secondary"
-                gutterBottm
-              >
-                {thePlayer.country}
-              </Typography>
-              <Typography variant="h3" component="h2">
-                {thePlayer.name}
-              </Typography>
-              <Typography variant="h5" color="primary">
+              <Typography variant="h5">{thePlayer.country}</Typography>
+              <Typography variant="h3">{thePlayer.name}</Typography>
+              <Typography variant="h4">
                 <b>Searches: </b> {thePlayer.searches}
               </Typography>
             </CardContent>
