@@ -1,6 +1,7 @@
 import React from "react";
-// import Button from "@material-ui/core/Button";
+import Button from "@material-ui/core/Button";
 import { useDarkMode } from "../hooks/useDarkMode";
+import Players from "./players";
 
 export default function Title() {
   const [darkMode, setDarkMode] = useDarkMode(false);
@@ -10,14 +11,17 @@ export default function Title() {
   };
 
   return (
-    <div className="navbar">
-      <div className="dark-mode__toggle">
-        <div
-          onClick={toggleMode}
-          className={darkMode ? "toggle toggled" : "toggle"}
-        />
+    <div className='cardRoot'>
+        <div className="navbar">
+        <div className="dark-mode__toggle">
+          <div
+            onClick={toggleMode}
+            className={darkMode ? "toggle toggled" : "toggle"}
+          />
+        </div>
+        <h2 className="title-header">Women Soccer Players' List</h2>
       </div>
-      <h2 className="title-header">Women Soccer Players' List</h2>
+      
     </div>
   );
 }

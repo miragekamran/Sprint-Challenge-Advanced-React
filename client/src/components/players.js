@@ -27,8 +27,9 @@ export default class Players extends React.Component {
           <Card key={thePlayer.id} className="cardRoot" variant="outlined">
             <CardContent>
               <Typography
+                variant="h5"
                 className="typography"
-                color="textSeconary"
+                color="secondary"
                 gutterBottm
               >
                 {thePlayer.country}
@@ -36,7 +37,7 @@ export default class Players extends React.Component {
               <Typography variant="h3" component="h2">
                 {thePlayer.name}
               </Typography>
-              <Typography className="typo" color="textSecondary">
+              <Typography variant="h5" color="primary">
                 <b>Searches: </b> {thePlayer.searches}
               </Typography>
             </CardContent>
